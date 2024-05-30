@@ -1,0 +1,68 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      position: relative;
+}
+
+.dialog {
+      width: 300px;
+      /* height: 100vh; */
+      background-color: white;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      z-index: 999;
+      padding: 2px 10px;
+}
+
+.opening {
+      position: fixed;
+      right: 0;
+      top: 0;
+      animation: dialogOpening 1s ease;
+}
+
+.closing {
+      position: fixed;
+      right: -300px;
+      top: 0;
+      animation: dialogClosing 1s ease;
+}
+
+.headerDialogDraw {
+      display: flex;
+      height: 48px;
+      justify-content: space-between;
+      border-bottom: 2px black solid;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      align-items: center;
+      text-align: center;
+}
+
+.bodyDialogDraw {
+      height: 100vh;
+      min-height: 100%;
+      overflow-y: scroll;
+      padding-bottom: 80px;
+}
+
+/* animation */
+@keyframes dialogOpening {
+      from {
+            right: -400px;
+      }
+
+      to {
+            right: 0;
+      }
+}
+
+@keyframes dialogClosing {
+      from {
+            right: 0;
+      }
+
+      to {
+            right: -400px;
+      }
+}

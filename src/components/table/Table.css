@@ -1,0 +1,53 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-size: 56.5%;
+}
+
+.tableFixHead {
+      font-size: 25rem;
+      overflow: auto;
+      height: 350px;
+      width: 100%;
+}
+
+.tableFixHead thead th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+}
+
+/* Just common table stuff. Really. */
+table {
+      border-collapse: collapse;
+      width: 100%;
+}
+
+th,
+td {
+      padding: 8px 16px;
+}
+
+th {
+      background: #eee;
+}
+
+a {
+      color: blue;
+      cursor: pointer;
+}
+
+.boxName {
+      height: 48px;
+      margin: 4px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center
+}
+
+img {
+      width: 50px;
+      height: 50px;
+      margin-right: 20px;
+}

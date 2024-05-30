@@ -1,0 +1,39 @@
+.defaultStyle {
+      padding: 6px 16px;
+      font-size: 14px;
+      border-radius: 6px;
+      border: 1px #000 solid;
+}
+
+.clear {
+      border: none;
+}
+
+.disabled {
+      opacity: 0.6;
+      cursor: no-drop;
+}
+
+.blue {
+      color: #0b6295;
+      background-color: #1C9AE2;
+      border: none;
+}
+
+.blue {
+      color: #0b6295;
+      background-color: #1C9AE2;
+      border: none;
+}
+
+.red {
+      color: #aa0f14;
+      background-color: #d13237;
+      border: none;
+}
+
+.orange {
+      color: #a95206;
+      background-color: #F2994A;
+      border: none;
+}
